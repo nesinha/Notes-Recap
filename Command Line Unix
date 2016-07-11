@@ -1,0 +1,45 @@
+•	$ - Shell Prompt, when terminal is ready to accept a command.
+•	ls - looks up the folder one is in currently and lists all files and folders inside the current folder/directory. In command line folders are referred to as directories.
+•	pwd - print working directory
+•	cd - change directory
+•	mkdir - creates a new directory in current directory
+•	touch - creates new file empty file in current working directory
+•	ls -a - lists all files including the hidden ones. Hidden files starts with a dot. -a is an Option
+•	ls -l - lists all contents of a directory in long format, 7 columns eg: 
+    o	Access Rights – Actions permitted on a file or directory
+    o	Number of hard Links – counts the number of child directories and files including parent directory link (..) and current directory link (.)
+    o	Username of files owner
+    o	Name of the group that owns the files
+    o	Size of file in bytes
+    o	Date and time the file was last modified
+    o	Name of file or directory
+•	ls -t - order files and directories by the time they were last modified
+•	ls -alt - all the above ls -a, ls -l, ls -t together
+•	cp - copy files. All except last argument are source files to be copied. Last argument destination file.
+•	mv - move files. Move one or multiple files to a destination folder. Also, used for renaming files.
+•	rm -r - rm command removes a file/directory. -r recursively applies to all child directories. Command is permanent, cannot “undelete”.
+•	echo - accepts string as std input and echoes back as std output.
+•	>       - redirects stdout to a file, overwrites the original content.
+•	cat    - cat command outputs content of a file to the terminal.
+•	>>     - takes standard output from file on left and appends to file on right.
+•	<       - takes std input from file on right and inputs it to the file on left.
+•	wc - outputs number of line, words and characters in a file
+•	| - pipe is a command to command redirection output of left command is given as input to right command. Multiple pipes can be chained together.
+•	sort - take stdin and orders if alphabetically for the stdout
+•	uniq - unique filters out adjacent, duplicate lines in a file
+•	grep - global regular expression print. It searches files for line that match a pattern and returns the results. It is case sensitive.
+    o	grep -i  - case insensitive
+    o	grep -R - searches all files in a directory and outputs file names and lines containing the matched result. -R is recursive. 
+•	sed - stream editor. ‘s/find/replace’ s stands for substitution, works similar to find and replace. Only for first instance found. ‘s/find/replace/g’ -> for all instances. G stands for global
+•	alias - in bash files helps to create shortcuts for commands. Source makes commands in bash files available in current session.
+•	Environment variables - variables that can be used across platforms and programs and hold information about the environment
+    o	export - makes variable available in all child sessions initiated from the current session. Thus variables persist across programs.
+•	‘$’ is used when accessing variables value.
+•	echo $HOME - This variable is an environment variable that displays the path of home directory.
+•	echo $PATH - This is an environment variable that stores a list of directories separated by a colon. Each directory contains scripts for command line to execute. It simply lists which directory contains script.
+•	env - stands for environment and returns a list of environment variables for current user.
+
+
+
+
+
