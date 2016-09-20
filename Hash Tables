@@ -14,3 +14,6 @@ What is Hash Table?
  Unordered map is another name for hash table, insert and access is O(1). 
  In an ordered map the elements are sorted by the key, insert and access is in O(log n). STL internally uses red black trees for ordered maps. 
  
+ 
+ Reference: http://pumpkinprogrammer.com/2014/06/21/c-tutorial-intro-to-hash-tables/
+ 
