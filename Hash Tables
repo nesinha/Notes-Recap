@@ -1,0 +1,16 @@
+Hash Tables are useful for storing large amount of data in an efficient manner.
+
+What is Hash Table?
+ A hash table is a data structure for storing key-value pairs. Hash Table uses keys to look up table entries making data management more manageable.
+ In C++ hash table is represented as an array of linked list. Look up in array is O(1) whereas in linked list is O(n).
+ 
+ What is a Hash Function?
+ A hash function(modulo arithmetic) decides where to store or retrive item from a hash table. It takes as an input key and returns an index value for that particular item.
+ 
+ What is Hash Collision?
+ When two keys hash to the same index, we get a hash collision. To maximize the efficiency of storing and retrieving items in the hash table, we need to minimize the number of collisions.There are several ways to write a good hash function. Making the table size a prime number is a good way to minimize collisions. In general, a good hash function fills out a hash table fairly uniformly.
+ 
+ What is C++ STL ordered map vs unordered map?
+ Unordered map is another name for hash table, insert and access is O(1). 
+ In an ordered map the elements are sorted by the key, insert and access is in O(log n). STL internally uses red black trees for ordered maps. 
+ 
