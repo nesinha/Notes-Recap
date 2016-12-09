@@ -1,0 +1,13 @@
+Types of interitence supported by C++
+  Single, Mutiple, Mutilevel, Hybrid and Hierarchical 
+
+Role of protected access specifier
+  Can be accessed by the inherited class. Inaccessible outside that.
+
+What is encapsulation?
+  Binding data and fucntion acting on that data together in a class.
+
+What is abstraction?
+  Hiding internal implementation and only showing the necessary details.
+
+
