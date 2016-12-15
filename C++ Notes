@@ -1,13 +1,36 @@
+What is a program?
+Sequence of instructions to be executed in order.
+__________________________________________________________________________________________________________________________________
+What is a compiler?
+
+Converts high level to machine level language. Combines all files of an application to run the process as a whole.
+Compiles all .cpp/.c files . If comes across include in cpp files, compiles those header files
+__________________________________________________________________________________________________________________________________
+incuding Header file.
+
+include "stdafx.h" <- within quotes mean file is local to project. Created header file in the project.
+include <iostream> <- <> indicates, compiler knows its path by default. It is not local.
+__________________________________________________________________________________________________________________________________
+ Variables:
+ 
+ int x - a storage space of type int.
+ unsigned - starts from zero. usecase: represent age.
+ signed - can be positive/negative
+ short/long - depends on compiler weather unsigned short/long or signed short/long. Usually signed.
+ const - to keep value constant throughout the life of program.
+ 
+
+__________________________________________________________________________________________________________________________________
 Types of interitence supported by C++
   Single, Mutiple, Mutilevel, Hybrid and Hierarchical 
-
+__________________________________________________________________________________________________________________________________
 Role of protected access specifier
   Can be accessed by the inherited class. Inaccessible outside that.
-
+__________________________________________________________________________________________________________________________________
 What is encapsulation?
   Binding data and fucntion acting on that data together in a class.
-
+__________________________________________________________________________________________________________________________________
 What is abstraction?
   Hiding internal implementation and only showing the necessary details.
-
+__________________________________________________________________________________________________________________________________
 
