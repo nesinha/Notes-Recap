@@ -18,7 +18,7 @@ ________________________________________________________________________________
  signed - can be positive/negative
  short/long - depends on compiler weather unsigned short/long or signed short/long. Usually signed.
  const - to keep value constant throughout the life of program.
- 
+ bool - false = 0, true = anything not 0, including negative numbers
 
 __________________________________________________________________________________________________________________________________
 Types of interitence supported by C++
