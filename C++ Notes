@@ -12,6 +12,22 @@ error at anytime :
 step 1: goto each and every cpp file and compile them with the header into an object file for each file including cpp files.
 step 2: linker: links all object files together including library files outside of project. gives exe file
 step 3: runtime/debugging 
+
+Runtime error example:
+
+int x;
+cin>>x;
+
+user types a string then runtime error.
+__________________________________________________________________________________________________________________________________
+
+Function declaration and Function definition:
+__________________________________________________________________________________________________________________________________
+
+scope and visibility:
+
+scope: limited within a block/lifetime of block. Once you leave the scope/block, the variable declared in the scope does not exist outside scope/block.
+
 __________________________________________________________________________________________________________________________________
 incuding Header file.
 
