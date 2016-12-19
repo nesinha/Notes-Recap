@@ -5,6 +5,13 @@ What is a compiler?
 
 Converts high level to machine level language. Combines all files of an application to run the process as a whole.
 Compiles all .cpp/.c files . If comes across include in cpp files, compiles those header files
+
+#include<-instruction for compiler.
+
+error at anytime : 
+step 1: goto each and every cpp file and compile them with the header into an object file for each file including cpp files.
+step 2: linker: links all object files together including library files outside of project. gives exe file
+step 3: runtime/debugging 
 __________________________________________________________________________________________________________________________________
 incuding Header file.
 
