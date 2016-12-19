@@ -22,12 +22,19 @@ user types a string then runtime error.
 __________________________________________________________________________________________________________________________________
 
 Function declaration and Function definition:
+
+Fucntion Declaration: Declaring function before using it, like before main. 
+Function Definition: Defining with the body.
 __________________________________________________________________________________________________________________________________
 
 scope and visibility:
 
 scope: limited within a block/lifetime of block. Once you leave the scope/block, the variable declared in the scope does not exist outside scope/block.
 
+__________________________________________________________________________________________________________________________________
+continue:
+
+skips rest part inside the loop after loop and continues the loop.
 __________________________________________________________________________________________________________________________________
 incuding Header file.
 
