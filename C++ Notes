@@ -23,7 +23,7 @@ ________________________________________________________________________________
 
 Function declaration and Function definition:
 
-Fucntion Declaration: Declaring function before using it, like before main. 
+Fucntion Declaration: Declaring function before using it, like before main for the compiler to know that it exists.
 Function Definition: Defining with the body.
 __________________________________________________________________________________________________________________________________
 
