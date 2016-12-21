@@ -1,0 +1,48 @@
+Program and Process:
+
+Program - Sequence of instructions.
+Process - Running program - Allocated CPU, Memory etc. Can be running, waiting or ready state. Scheduled, given time slices for execution.
+____________________________________________________________________________________________________________________________________________________
+
+Thread and process:
+
+Thread - Lightweight process. Improve performance by parallelization. For example, in a browser, multiple tabs can be different threads. MS word uses multiple threads, one thread to format the text, other thread to process inputs, etc.
+Threads are not independent of one other like processes as a result threads shares with other threads their code section, data section and OS resources like open files and signals.
+
+Similarities
+
+Like processes threads share CPU and only one thread active (running) at a time.
+Like processes, threads within a processes, threads within a processes execute sequentially.
+Like processes, thread can create children.
+And like process, if one thread is blocked, another thread can run.
+
+Differences
+
+Unlike processes, threads are not independent of one another.
+Unlike processes, all threads can access every address in the task .
+Unlike processes, thread are design to assist one other. Note that processes might or might not assist one another because processes may originate from different users.
+
+Why Threads?
+
+Following are some reasons why we use threads in designing operating systems.
+
+A process with multiple threads make a great server for example printer server.
+Because threads can share common data, they do not need to use interprocess communication.
+Because of the very nature, threads can take advantage of multiprocessors.
+Threads are cheap in the sense that
+
+They only need a stack and storage for registers therefore, threads are cheap to create.
+Threads use very little resources of an operating system in which they are working. That is, threads do not need new address space, global data, program code or operating system resources.
+Context switching are fast when working with threads. The reason is that we only have to save and/or restore PC, SP and registers.
+But this cheapness does not come free - the biggest drawback is that there is no protection between threads.
+
+______________________________________________________________________________________________________________________________________________
+
+What are the necessary conditions for deadlock?
+
+Mutual Exclusion: There is s resource that cannot be shared.
+Hold and Wait: A process is holding at least one resource and waiting for another resource which is with some other process.
+No Preemption: The operating system is not allowed to take a resource back from a process until process gives it back.
+Circular Wait:  A set of processes are waiting for each other in circular form.
+
+______________________________________________________________________________________________________________________________________________
